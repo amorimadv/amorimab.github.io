@@ -1,0 +1,147 @@
+@font-face{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    src: url('../font/segoe-ui.otf');
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif!important;
+    background-color: #E5E1E6;
+}
+.frase{
+    position: fixed;
+    z-index: -1; 
+    color: #E5E1E6;
+}
+.img-fixed{
+    position: fixed;
+    z-index: -2;
+    top: 0em;
+}
+main{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.backcolor{
+    background-color: #E5E1E6;
+}
+.bg-dark{
+    background-color: #00263A!important;
+    z-index: 1000;
+}
+.navbar{
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+.p-size{
+    font-size: larger;
+}
+.btn{
+    background-color: #00263A !important;
+    color: #E5E1E6 !important;
+    border-color: #00263A !important;
+}
+.btn:hover{
+    background-color: #E5E1E6 !important;
+    color: #00263A !important;
+    border-color: #00263A !important;
+}
+#sticky-footer {
+    flex-shrink: none;
+    margin-top: 2vh;
+  }
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.txt-cpy{
+    color: #E5E1E6;
+}
+.txt-cpy a{
+    color: black;
+}
+.txt-cpy a:hover{
+    color: #E5E1E6;
+}
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.fab1{
+    color: #dad7d7;
+}
+.fab1:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.btn-back{
+    border: 1px #dad7d7 solid;
+    display: none;
+    border-radius: 200px;
+    z-index: 10;
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+    background-color: #00263A;
+}
+.btn-back-link{
+    text-align: center;
+    display: block;
+    line-height: 70px;
+    width: 100%;
+    height: 100%;
+    color: #dad7d7;
+}
+.about{
+    width: 100%;
+    margin-bottom: 20vh;
+}
+.college{
+    width: 50%;
+}
+.law{
+    width: 50%;
+}
+.map-border{
+    border: 2px solid #00263A;
+    border-radius: 200px;
+}
+.incolor{
+    height: 100vh;
+    width: 100%;
+}
+.presentation{
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+}
+.list-sett ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+.list-sett ul li{
+    display: inline; 
+}
+.list-sett ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+
+    color: black;
+}
+.padding-contatos{
+    padding-top: 5vh;
+}
+.padding-5{
+    padding-bottom: 5vh;
+}
