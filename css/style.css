@@ -10,6 +10,7 @@ body{
     position: fixed;
     z-index: -1; 
     color: #E5E1E6;
+    font-size: 4rem;
 }
 .img-fixed{
     position: fixed;
@@ -118,6 +119,9 @@ main{
     border-radius: 200px;
 }
 .incolor{
+    height: 70vh;
+}
+.incolor-banner{
     height: 100vh;
     width: 100%;
 }
