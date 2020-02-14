@@ -73,89 +73,100 @@
             <!--Apresentação-->
             <!--Contatos-->
             <div class="container">
-            <div class="row padding-contatos" id="contatos">
-                <div class="col-sm-6 padding-5">
-                    <h2 class="text-left">Contatos</h2><br>
-                    <div class="list-sett">
-                        <ul>
-                            <li>
-                                <i class="fas fa-map-pin"></i>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com/maps/place/R.+Don%C3%A1+Concei%C3%A7%C3%A3o,+33+-+Leader,+Jacobina+-+BA,+44700-000/@-11.1825817,-40.5143544,17z/data=!3m1!4b1!4m5!3m4!1s0x76cf3cd5c66ae25:0x5a90318d95fd5473!8m2!3d-11.1825817!4d-40.5121657"
-                                    target="_blank">
-                                    <p class="font-weight-bold">Escritório Amorim e Benevides</p>
-                                </a>
-                                <p class="font-weight-light">Rua da Conceição, N° 33, Centro, Jacobina-BA,
-                                    CEP:
-                                    44700-000</p>
+                <div class="row padding-contatos" id="contatos">
+                    <div class="col-sm-6 padding-5">
+                        <h2 class="text-left">Contatos</h2><br>
+                            <div class="padding-3t">
+                            <div class="list-sett">
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-map-pin"></i>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.google.com/maps/place/R.+Don%C3%A1+Concei%C3%A7%C3%A3o,+33+-+Leader,+Jacobina+-+BA,+44700-000/@-11.1825817,-40.5143544,17z/data=!3m1!4b1!4m5!3m4!1s0x76cf3cd5c66ae25:0x5a90318d95fd5473!8m2!3d-11.1825817!4d-40.5121657"
+                                            target="_blank">
+                                            <p class="font-weight-bold">Escritório Amorim e Benevides</p>
+                                        </a>
+                                        <p class="font-weight-light">Rua da Conceição, N° 33, Centro, Jacobina-BA,
+                                            CEP:
+                                            44700-000</p>
 
-                            </li>
-                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="float-left">
+                                <div class="list-sett wrapper">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-phone"></i>
+                                            <a href="tel:74-3621-2210">
+                                                <p class="font-weight-light">(74)3621-2210</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-whatsapp"></i>
+                                            <a href="https://api.whatsapp.com/send?phone=5574991414976" target="_blank">
+                                                <p class="font-weight-light">(74)99141-4976
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list-sett wrapper">
+                                    <ul>
+
+                                        <li>
+                                            <i class="fab fa-instagram fa-lg"></i>
+                                            <a href="https://www.instagram.com/gaabriel.amorim/">
+                                                <p class="font-weight-light">Instagram</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-facebook-square fa-lg"></i>
+                                            <a href="https://web.facebook.com/gabriel.amorim.7509" target="_blank">
+                                                <p class="font-weight-light">Facebook
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="https://www.google.com/maps/place/R.+Don%C3%A1+Concei%C3%A7%C3%A3o,+33+-+Leader,+Jacobina+-+BA,+44700-000/@-11.1825817,-40.5143544,17z/data=!3m1!4b1!4m5!3m4!1s0x76cf3cd5c66ae25:0x5a90318d95fd5473!8m2!3d-11.1825817!4d-40.5121657"
+                                    target="_blank"><img src="./img/map.png"
+                                        class="mx-auto d-block img-fluid map-border"></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="float-left">
-                        <div class="list-sett wrapper">
-                            <ul>
-                                <li>
-                                    <i class="fas fa-phone"></i>
-                                    <a href="tel:74-3621-2210">
-                                        <p class="font-weight-light">(74)3621-2210</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fab fa-whatsapp"></i>
-                                    <a href="https://api.whatsapp.com/send?phone=5574991414976" target="_blank">
-                                        <p class="font-weight-light">(74)99141-4976
-                                        </p>
-                                    </a>
-                                </li>
-                            </ul>
+                    <!--Form-->
+                    <div class="col-sm-6">
+                        <h2 class="text-left">Fala comigo, bebê</h2><br>
+                        <div class="">
+                            <form id="fs-frm" name="complaint-form" accept-charset="utf-8"
+                                action="https://formspree.io/luisfng123@gmail.com" method="post">
+                                <fieldset id="fs-frm-inputs">
+                                    <label for="full-name">Nome completo</label>
+                                    <input type="text" name="name" id="full-name" class="form-control"
+                                        placeholder="ex.: João" required="">
+                                    <label for="email-address">Endereço de E-mail</label>
+                                    <input type="email" name="_replyto" id="email-address" class="form-control"
+                                        placeholder="email@dominio.com" required="">
+                                    <label for="telephone">Número de telefone</label>
+                                    <input type="telephone" name="telephone" id="telephone" class="form-control"
+                                        placeholder="(99) 9 9999-9999">
+                                    <label for="complaint">Me conte seu caso</label>
+                                    <textarea rows="6" name="complaint" id="complaint" class="form-control"
+                                        placeholder="Breve explicação sobre o seu caso" required="" style="height:15vh;"></textarea>
+                                    <input type="hidden" name="_subject" id="email-subject"
+                                        value="Complaint Form Submission">
+                                </fieldset>
+                                <div class="padding-1">
+                                    <input type="submit" class="btn btn-primary mb-2 " value="Enviar">
+                                </div>
+                            </form>
                         </div>
-                        <div class="list-sett wrapper">
-                            <ul>
-                                
-                                <li>
-                                    <i class="fab fa-instagram fa-lg"></i>
-                                    <a href="https://www.instagram.com/gaabriel.amorim/">
-                                        <p class="font-weight-light">Instagram</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fab fa-facebook-square fa-lg"></i>
-                                    <a href="https://web.facebook.com/gabriel.amorim.7509" target="_blank">
-                                        <p class="font-weight-light">Facebook
-                                        </p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="https://www.google.com/maps/place/R.+Don%C3%A1+Concei%C3%A7%C3%A3o,+33+-+Leader,+Jacobina+-+BA,+44700-000/@-11.1825817,-40.5143544,17z/data=!3m1!4b1!4m5!3m4!1s0x76cf3cd5c66ae25:0x5a90318d95fd5473!8m2!3d-11.1825817!4d-40.5121657"
-                            target="_blank"><img src="./img/map.png" class="mx-auto d-block img-fluid map-border"></a>
                     </div>
+                    <div class="w-70"></div>
                 </div>
-                <!--Form-->
-                <div class="col-sm-6">
-                    <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/luisfng123@gmail.com" method="post">
-                        <fieldset id="fs-frm-inputs">
-                          <label for="full-name">Nome completo</label>
-                          <input type="text" name="name" id="full-name" class="form-control" placeholder="ex.: João" required="">
-                          <label for="email-address">Endereço de E-mail</label>
-                          <input type="email" name="_replyto" id="email-address" class="form-control" placeholder="email@dominio.com" required="">
-                          <label for="telephone">Número de telefone</label>
-                          <input type="telephone" name="telephone" id="telephone" class="form-control" placeholder="(99) 9 9999-9999">
-                          <label for="complaint">Me conte seu caso</label>
-                          <textarea rows="6" name="complaint" id="complaint" class="form-control" placeholder="Breve explicação sobre o seu caso" required=""></textarea>
-                          <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
-                        </fieldset>
-                        <div class="padding-1">
-                        <input type="submit" class="btn btn-primary mb-2 " value="Enviar">
-                        </div>
-                      </form>
-                      
-                </div>
-                <div class="w-70"></div>
             </div>
-        </div>
             <!--Form-->
             <!--Contatos-->
         </main>

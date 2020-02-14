@@ -145,6 +145,12 @@ main{
 .padding-5{
     padding-bottom: 5vh;
 }
+.padding-5t{
+    padding-top: 3vh;
+}
 .padding-1{
     padding-top: 1vh;
+}
+.float-left{
+    padding: 0%;
 }
